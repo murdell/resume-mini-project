@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i|Exo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
+
+
+
+
+/* xxx MENU AND NAVIGATION xxx */
+
+.ui-menu-color-home {
+    background-color: #5e9652;
+     
+}
+
+.ui-menu-color-resume {
+    background-color: #db499a;
+}
+
+.ui-menu-color-contact {
+    background-color: #787bae;
+}
+
+.ui-menu-color-download {
+    background-color: #d98853;
+}
+
+
+
+
+
+}
+
+
+
+#nav {
+    margin: 0;
+
+}
+
+#nav .list-inline-item span {
+    color: yellow;
+    font-weight: 500;
+}
+
+
+.menu-item {
+    display: block;
+    float:left;
+    text-align: center;
+    height: 120px;
+    padding:0;
+    color: black;  
+    font-size: 120px;
+
+    
+}
+
+.menu-item a {
+    display: block;
+
+    width: 100%;
+    text-decoration: none;
+    color: green;
+    height: 120px;
+
+}
+
+.menu-item a i {
+    color: purple;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 26px;
+}
+
+.menu-item span {
+    display: block;
+    float:left;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;    
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: pink;    
+  
+}
+
+.heading {
+        margin-left: 50px;
+}
+
+/*  xxx HEADER AREA xxx */
+
+.bg-color-name-title {
+    background-color: #676767;
+    
+}
+
+.bg-color-three-reasons {
+    background-color: yellow;
+}
+
+header {
+    margin-left: 0px;
+  
+}
+
+.logo {
+    background: url("../images/l_powell.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transform-origin: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+
+}
+
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+   
+    color: #ffffff;  
+}
+
+.company {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #ffffff;  
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    float: left;
+    width: 160px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+
+}
+
+#lp-nav {
+    margin: 0; 
+    width:100%;
+
+}
+
+#lp-nav li {
+    padding: 0;
+}
+
+
+.lp-menu-item {
+    display: block;
+    width:100%;
+    float: left;
+    height: 120px;
+    padding-top: 0;
+    margin: 0;
+    padding-left: 0;
+
+}
+
+
+.lp-menu-item a {
+    width: 100%;
+    text-decoration: none;
+    height: 120px;
+    padding-top: 0;
+    margin: 0;    
+   
+
+
+
+}
+
+.lp-menu-item a i  {
+    display: block;
+
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+
+}
+
+
+.lp-menu-item span {
+    display: block;
+    width: 100%;
+    color:#ffffff;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;    
+    font-weight: 500;
+    letter-spacing: 2px;
+  
+}
+
+/* xxx HOVER CLASS for LPNAV xxx */
+.hvr-sweep-to-bottom:before {
+      background: rgba(0,0,0,0.2);
+      height: 120px;
+}
+
+
+/* xxx SPECIAL PADDING / MARGINS / TEXT  xxx */
+h1,h2,h3,h4 {
+    margin:   0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    margin: 20px 0;
+}
+
+.inline-block{
+    display: inline-block;
+    text-align: left;
+}
+
+.section-column {
+    padding: 0 30px 30px;
+    float:none;
+    display: table-cell;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* xxx footer xxx */
+footer{
+    background-color: #525252;
+    color:#fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+footer .cv-pdf i{
+    color: #fafafa;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+
+
+footer .cv-pdf i:hover {
+    color: #d98853;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0 ;
+    border-radius: 25%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background-color: #787bae;
+}
+
+
