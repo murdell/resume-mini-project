@@ -3,7 +3,7 @@
 
 
 
-/* xxx MENU AND NAVIGATION xxx */
+/* ---------------------------------------------- xxx MENU AND NAVIGATION xxx */
 
 .ui-menu-color-home {
     background-color: #5e9652;
@@ -22,35 +22,34 @@
     background-color: #d98853;
 }
 
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.bg-color-three-reasons {
+    background-color: yellow;
+}
 
 
-
-
+.bg-color-personal-info {
+    background-color: pink;
 }
 
 
 
 #nav {
     margin: 0;
+     width:100%;
+   
 
 }
-
-#nav .list-inline-item span {
-    color: yellow;
-    font-weight: 500;
-}
-
 
 .menu-item {
     display: block;
     float:left;
-    text-align: center;
     height: 120px;
-    padding:0;
-    color: black;  
+    margin: 0;
     font-size: 120px;
-
-    
 }
 
 .menu-item a {
@@ -60,11 +59,10 @@
     text-decoration: none;
     color: green;
     height: 120px;
-
 }
 
 .menu-item a i {
-    color: purple;
+    color: #fafafa;
     padding-top: 20px;
     padding-bottom: 10px;
     display: block;
@@ -81,7 +79,7 @@
     font-size: 14px;    
     font-weight: 300;
     letter-spacing: 2px;
-    color: pink;    
+    color: #fafafa;    
   
 }
 
@@ -89,16 +87,9 @@
         margin-left: 50px;
 }
 
-/*  xxx HEADER AREA xxx */
+/*  ---------------------------------------------- xxx HEADING AREA xxx */
 
-.bg-color-name-title {
-    background-color: #676767;
-    
-}
 
-.bg-color-three-reasons {
-    background-color: yellow;
-}
 
 header {
     margin-left: 0px;
@@ -168,75 +159,18 @@ li a {
 
 }
 
-#lp-nav {
-    margin: 0; 
-    width:100%;
-
-}
-
-#lp-nav li {
-    padding: 0;
-}
-
-
-.lp-menu-item {
-    display: block;
-    width:100%;
-    float: left;
-    height: 120px;
-    padding-top: 0;
-    margin: 0;
-    padding-left: 0;
-
-}
-
-
-.lp-menu-item a {
-    width: 100%;
-    text-decoration: none;
-    height: 120px;
-    padding-top: 0;
-    margin: 0;    
-   
 
 
 
-}
 
-.lp-menu-item a i  {
-    display: block;
-
-    color: #ffffff;
-    text-align: center;
-    font-size: 25px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-
-
-}
-
-
-.lp-menu-item span {
-    display: block;
-    width: 100%;
-    color:#ffffff;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;    
-    font-weight: 500;
-    letter-spacing: 2px;
-  
-}
-
-/* xxx HOVER CLASS for LPNAV xxx */
+/* ---------------------------------------------- xxx HOVER CLASS for LPNAV xxx */
 .hvr-sweep-to-bottom:before {
       background: rgba(0,0,0,0.2);
       height: 120px;
 }
 
 
-/* xxx SPECIAL PADDING / MARGINS / TEXT  xxx */
+/* ---------------------------------------------- xxx SPECIAL PADDING / MARGINS / TEXT  xxx */
 h1,h2,h3,h4 {
     margin:   0;
 }
@@ -256,24 +190,7 @@ h1,h2,h3,h4 {
     text-align: left;
 }
 
-.section-column {
-    padding: 0 30px 30px;
-    float:none;
-    display: table-cell;
-}
-
-.row-table {
-    display: table;
-}
-
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
-
-/* xxx footer xxx */
+/*---------------------------------------------- xxx footer start xxx */
 footer{
     background-color: #525252;
     color:#fafafa;
@@ -321,4 +238,75 @@ footer .cv-pdf i:hover {
     background-color: #787bae;
 }
 
+/*---------------------------------------------- xxx footer start xxx */
 
+
+
+/*---------------------------------------------- xxx Why hire me section xxx */
+
+
+.row-table {
+    display: table;
+}
+
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+
+.three-reasons-icon {
+    color: #5e9652;
+    font-size: 26px;
+    margin-top: 5px;
+    
+    
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+
+/*---------------------------------------------- xxx Personal Info xxx */
+.personal-info-item{
+    margin-bottom:20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key, 
+.personal-info-item .value {
+    padding-right: 8px;
+    
+}
+
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+
+/*---------------------------------------------- xxx Media Queries xxx */
+@media (min-width:992px) {
+    .section-column {
+        padding: 0 150px 30px;
+        float:none;
+        display: table-cell;
+    }
+}
